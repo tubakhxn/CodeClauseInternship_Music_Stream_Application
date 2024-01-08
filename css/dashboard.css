@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:700");
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500");
+
+/* CSS DASHBOARD PAGES */
+
+.coldcard{
+	padding: 10px;
+	color: #202020;
+	font-family: 'Montserrat', sans-serif;
+}
+.coldcard .card{
+	position: relative;
+	background: transparent;
+	border: 3px solid #6059f6;
+	box-shadow: 0px 0px 15px 0px rgba(52, 69, 199, 0.4);
+}
+.imgtrack{
+	height: 250px;
+}
+.coldcard b{
+	font-size: 13px;
+}
+.coldcard p{
+	font-size: 11px;
+}
+
+.iCon{
+	cursor: pointer;
+	border: 1px solid;
+	padding: 5px;
+	font-size: 20px;
+}
+
+
+footer{
+	color: white;
+	font-family: "Roboto Condensed", Sans-serif;
+	background-image: url(http://localhost/Uprising/assets/images/banner.png);
+}
+
+@media(min-width: 992px) {
+	.imgtrack{
+		height: 150px;
+	}
+}
